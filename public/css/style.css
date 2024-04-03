@@ -1,0 +1,86 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5e9df !important;
+} 
+
+
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5em;
+    background: linear-gradient(45deg,#e8a966,#a0aaad );
+}
+
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.drop-link{
+    color: black !important;
+    text-decoration: none;
+}
+
+/* footer */
+
+body { 
+    color: white; 
+} 
+
+.footer { 
+    background: linear-gradient(45deg,#e8a966,#a0aaad );
+    
+} 
+
+.footer-content h2 { 
+    color: #fff; 
+} 
+
+.footer-content h5, 
+.footer-content p, 
+.footer-links a { 
+    color: #fff; 
+} 
+
+.footer-links a:hover { 
+    text-decoration: underline; 
+} 
+
+.footer hr { 
+    background-color: #fff; 
+} 
+
+
+/* Middle */
+
+.image{
+    height: 400px;
+    width: 100%;
+   background-image: url('/E-cell-photo.jpg');
+   background-size: contain;
+}
+.image2{
+    height: 400px;
+    width: 100%;
+   background-image: url('/E-cell-summit.jpg');
+   background-size: contain;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.gallery-div{
+    margin-left: 15rem !important;
+}

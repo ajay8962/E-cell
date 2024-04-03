@@ -1,0 +1,71 @@
+<style>
+    .search-btn{
+      background: linear-gradient(45deg,#e8a966,#a0aaad );
+      color: #fff;
+      border-radius: 25px;
+      padding:0 1rem 0 1rem ;
+    }
+    .search-btn:hover{
+      background: linear-gradient(45deg,#e8a966,#a0aaad );
+      color: #fff;
+    }
+    .search-btn i{
+      display: inline;
+      margin-right: .5rem;
+    }
+    .search-inp{
+      border-radius: 25px;
+      padding:0.5rem 3rem 0.5rem 3rem;
+      font-size: 1rem;
+    }
+    .dropdown-btn{
+      background: linear-gradient(45deg,#e8a966,#a0aaad );
+      color: white;
+      border: none;
+    }
+    .dropdown-btn:hover{
+      color: #fff;
+    }
+    
+    .nav-style{
+      margin-right: 2em;
+    }
+    
+    .nav-style:hover{
+      background: linear-gradient(45deg,#e8a966,#a0aaad );
+    }
+    
+</style>
+  
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+      <div class="container-fluid">
+        <div><a class="navbar-brand ms-auto" href="/listing"><img src="/E-cell-logo.png" alt="" height="70px"></a></div>
+        <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav search  ms-auto navbar-collapse " id="navbarNavAltMarkup">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 search-inp" type="search" placeholder="Search about E-cell" >
+            <button class="btn search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-btn" type="button" data-bs-toggle="dropdown" >
+                  Join Us
+                </button>
+                <ul class="dropdown-menu " style="background: linear-gradient(45deg,#e8a966,#a0aaad );">
+                  <li><a class="drop-link" href="/signup"><b>Signup</b></a></li>
+                  <li><a class="drop-link" href="/login"><b>Login</b></a></li>
+                </ul>
+            </div>
+            <a class="nav-link  nav-style" href="/listing">Home</a>
+            <a class="nav-link nav-style" href="#">About</a>
+            <a class="nav-link nav-style" href="#">Initiatives</a>
+            <a class="nav-link nav-style"  href="#">Gallery</a>
+            <a class="nav-link nav-style" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+</nav>
